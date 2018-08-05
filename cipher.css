@@ -1,0 +1,160 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+textarea {
+  float: left;
+  width: 45px;
+  height: 400px;
+}
+
+input[type="checkbox"] {
+  margin-left: 18px;
+}
+
+table, th, td {
+  border: 2px solid silver;
+  background-color: black;
+  color: black;
+}
+
+div {
+  float: left;
+}
+
+td {
+  text-align: center; 
+  vertical-align: middle;
+  background-color: #e0ffff;
+}
+
+button {
+    width: 119px;
+    background-color: white;
+    border: none;
+    padding: 4px 0;
+    margin: 2px 4px;
+}
+
+progress {
+    float: left;
+    background-color: #f3f3f3;      
+    width: 98px;
+    height: 18px;
+    margin: 0px;
+    margin-top: 410px;
+    margin-left: -100px;
+}
+
+#ciphertop {
+  text-align: center;
+  background-color: #000000B0;
+  width: 100%;
+  height: 28px;
+  border-bottom: black solid 1px;
+}
+
+#apply_crack {
+  margin-bottom: 40px;
+}
+
+#guess_sort_alphabet {
+  float: left;
+  margin-top: 440px;
+  margin-left: -100px;
+  width: 98px;
+}
+
+#cipher_data {
+  float: left;
+  width: 100%;
+  background-color: floralwhite;
+}
+
+#new_map {
+  width: 115px;
+  margin-bottom: 40px;
+}
+
+#freq_cap {
+  width: 40px;
+}
+
+#controls {
+  display: block;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  min-width: 160px;
+  float: left;
+  background-color: lightgoldenrodyellow;
+  width: 16.1%;
+}
+
+#spacing {
+  padding-left: 15px;
+}
+
+#guess_panel {
+  float: left;
+  background-color: pink;
+  padding-bottom: 20px;
+}
+
+.codepane {
+  float: left;
+  border: solid rgb(173, 172, 172) 1px; 
+  word-wrap: break-word;
+  font-family: monospace;
+  font-size: 13px;
+  overflow-y: auto;
+  width: 38%;
+  height: 498px;
+  min-width: 260px;
+}
+
+.edited {
+  color: blue;
+}
+
+.lowercase {
+  color: green;
+}
+
+.uppercase {
+  color: violet;  
+}
+
+.numeric {
+  color: green;
+}
+
+.punct {
+  color: black;
+}
+
+.guess_card {
+  font-family: Sans Serif, Helvetica;
+  font-size: 18pt;
+  color: silver;
+  padding: 30px;
+  height: 150px;
+  width:  180px;
+  float: left;
+}
+
+.guess_card h3 {
+  color: black;
+}
+
+[contentEditable=true]:empty:not(:focus):before {
+    content:attr(tittle)
+}
+
+.title {
+    position: absolute;
+    color: white;
+    font-family: "Droid Sans Mono";
+    top: -11px;
+    left: 40px;
+}
